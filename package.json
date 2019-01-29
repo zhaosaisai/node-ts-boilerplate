@@ -1,0 +1,22 @@
+{
+  "name": "node-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "A node boilerplate to create project",
+  "main": "index.js",
+  "scripts": {
+    "build:clean": "rimraf -rf dist && mkdir dist",
+    "build": "npm run build:clean && tsc -p tsconfig.build.json"
+  },
+  "keywords": [
+    "node",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^2.6.3"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}
