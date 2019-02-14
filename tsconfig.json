@@ -19,7 +19,8 @@
   },
   "include": [
     "src/**/*",
-    "test/**/*"
+    "test/**/*",
+    "global.d.ts"
   ],
   "exclude": [
     "node_modules"
